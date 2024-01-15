@@ -16,7 +16,6 @@ body{
   position: relative;
   background: #f0f0f0;
   font-family: 'roboto', sans-serif;
-  overflow-y: hidden;
 
 }
 
@@ -194,26 +193,45 @@ body{
 }
 
 
+
+.card1{
+  display: flex;
+  width: 20px;
+  padding: 1px;
+  gap: 5px;
+
+
+}
+.card2{
+  display: flex;
+  width: 20px;
+  padding: 1px;
+  gap: 5px;
+
+
+} 
+
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 20px;
-  gap: 20px;
+  justify-content:center;
+  padding: 200px;
+  padding-right: 10px;
+  gap: 40px;
 }
 
 .card {
-  width: 200px;
+  width: 300px;
   border: 1px solid #ccc;
   border-radius: 1px;
-  padding: 5px;
+  padding: 20px;
   text-align: center;
 }
 
 .card img {
   width: 100%;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .card h3 {
